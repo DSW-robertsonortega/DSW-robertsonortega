@@ -1,0 +1,25 @@
+header{
+background-color: cornflowerblue;
+padding: 20px;
+}
+nav{
+    background-color: gray;
+}
+section{
+    background-color: rgba(128, 0, 0, 0.247);
+    float: left;
+    width: 70%;
+}
+aside{
+    width: 30%;
+    background-color: rgba(0, 98, 128, 0.171);
+    float: left;
+}
+footer{
+    background-color: rgba(106, 142, 35, 0.438);
+}
+.contenedor::after{
+    content:"" ;
+    display: block;
+    clear: both;
+}
